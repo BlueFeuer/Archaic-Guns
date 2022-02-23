@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="MIT"
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/archaic-guns/issues"
+[[mods]]
+modId="archaicguns"
+version="1.0"
+displayName="Archaic Guns"
+authors="BlueFire"
+credits="MrCrayfish"
+description="Adds more guns to Mr. Crayfish's Gun Mod."
+[[dependencies.archaicguns]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archaicguns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archaicguns]]
+    modId="cgm"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archaicguns]]
+    modId="obfuscate"
+    mandatory=true
+    versionRange="[0.6.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archaicguns]]
+    modId="controllable"
+    mandatory=false
+    versionRange="[0.10.3,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[modproperties.archaicguns]
+    catalogueItemIcon="minecraft:paper"
+    configuredBackground="minecraft:textures/block/blast_furnace_top.png"

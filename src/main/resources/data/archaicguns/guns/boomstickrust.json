@@ -1,0 +1,59 @@
+{
+  "general": {
+    "auto": FALSE,
+    "rate": 50,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 20,
+    "recoilKick": 1,
+    "recoilAdsReduction": 0.75,
+    "projectileAmount": 1,
+    "alwaysSpread": FALSE,
+    "spread": 1
+  },
+  "projectile": {
+    "item": "archaicguns:shell",
+    "visible": FALSE,
+    "damage": 50,
+    "size": 0.1,
+    "speed": 1.5,
+    "life": 100,
+    "gravity": TRUE
+  },
+  "sounds": {
+    "fire": "archaicguns:item.boomstickrust.fire",
+    "reload": "archaicguns:item.boomstickrust.reload",
+    "cock": "archaicguns:item.boomstickrust.reload",
+    "silencedFire": "archaicguns:item.boomstickrust.fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5.3,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "scale": 1,
+        "yOffset": 5,
+        "zOffset": 6.5
+      },
+      "barrel": {
+        "scale": 0.5,
+        "yOffset": 3.435,
+        "zOffset": -10.105
+      },
+      "stock": {
+        "scale": 1.2,
+        "yOffset": 2.8,
+        "zOffset": -3
+      },
+      "underBarrel": {
+        "scale": 1,
+        "yOffset": 0,
+        "zOffset": 0
+      }
+    }
+  }
+}

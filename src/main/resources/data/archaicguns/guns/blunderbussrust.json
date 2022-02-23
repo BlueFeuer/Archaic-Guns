@@ -1,0 +1,59 @@
+{
+  "general": {
+    "auto": FALSE,
+    "rate": 20,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 14,
+    "recoilKick": 1,
+    "recoilAdsReduction": 0.75,
+    "projectileAmount": 5,
+    "alwaysSpread": TRUE,
+    "spread": 12
+  },
+  "projectile": {
+    "item": "archaicguns:buckshot",
+    "visible": FALSE,
+    "damage": 20,
+    "size": 0.1,
+    "speed": 6,
+    "life": 5,
+    "gravity": TRUE
+  },
+  "sounds": {
+    "fire": "archaicguns:item.blunderbussrust.fire",
+    "reload": "archaicguns:item.blunderbussrust.reload",
+    "cock": "archaicguns:item.blunderbussrust.reload",
+    "silencedFire": "archaicguns:item.blunderbussrust.fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5.6,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "scale": 1,
+        "yOffset": 5,
+        "zOffset": 6.5
+      },
+      "barrel": {
+        "scale": 0.5,
+        "yOffset": 3.375,
+        "zOffset": -9
+      },
+      "stock": {
+        "scale": 1.2,
+        "yOffset": 2.8,
+        "zOffset": -3
+      },
+      "underBarrel": {
+        "scale": 1,
+        "yOffset": 0,
+        "zOffset": 0
+      }
+    }
+  }
+}

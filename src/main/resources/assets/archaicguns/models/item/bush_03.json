@@ -1,0 +1,117 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"textures": {
+		"1": "biomesoplenty:blocks/bush_base",
+		"2": "biomesoplenty:blocks/bush_spokes",
+		"3": "biomesoplenty:blocks/bush_sticks",
+		"particle": "biomesoplenty:blocks/bush_spokes"
+	},
+	"elements": [
+		{
+			"name": "basebush",
+			"from": [-0.5, -9, -1.5],
+			"to": [17.5, 7, 16.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [9, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "basebush",
+			"from": [0, -9, 0],
+			"to": [16, 7, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [8, -7, 0],
+			"to": [8, 9, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [0, -7, 8],
+			"to": [16, 9, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "spoke1",
+			"from": [-1, 0, -4],
+			"to": [7, 8, 4],
+			"rotation": {"angle": 45, "axis": "x", "origin": [-1, 0, 4]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "spoke1",
+			"from": [3.5, 0, -0.5],
+			"to": [11.5, 8, 7.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [3.5, 0, -0.5]},
+			"faces": {
+				"east": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "spoke2",
+			"from": [9, -1, -2],
+			"to": [17, 7, 6],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9, -1, 6]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "spoke2",
+			"from": [13.5, -1, 1.5],
+			"to": [21.5, 7, 9.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [13.5, -1, 1.5]},
+			"faces": {
+				"east": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "spoke3",
+			"from": [3, -1, 5],
+			"to": [11, 7, 13],
+			"rotation": {"angle": 45, "axis": "x", "origin": [3, -1, 13]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "spoke3",
+			"from": [7.5, -1, 8.5],
+			"to": [15.5, 7, 16.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.5, -1, 8.5]},
+			"faces": {
+				"east": {"uv": [4, 8, 12, 16], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 0, 12, 8], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

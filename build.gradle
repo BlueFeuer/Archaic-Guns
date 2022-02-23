@@ -1,0 +1,96 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+		maven { url = 'https://repo.spongepowered.org/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'maven-publish'
+apply plugin: 'org.spongepowered.mixin'
+
+version = '1.0-1.16.5'
+group = 'com.bluefire.archaicguns'
+archivesBaseName = 'archaicguns'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+			property "mixin.env.disableRefMap", "true"
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+			arg '-mixin.config=archaicguns.mixins.json'
+
+            mods {
+                archaicguns {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+			arg '-mixin.config=archaicguns.mixins.json'
+
+            mods {
+                archaicguns {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'archaicguns', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+			arg '-mixin.config=archaicguns.mixins.json'
+
+            mods {
+                archaicguns {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+	maven { url = "https://www.cursemaven.com" }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
+    compile fg.deobf('curse.maven:obfuscate-289380:3295964')
+    compile fg.deobf('curse.maven:controllable-317269:3298267')
+    compile fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3224957')
+    compile fg.deobf('curse.maven:configured-457570:3334897')
+    compile fg.deobf('curse.maven:catalogue-459701:3334740')
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "Archaic Guns",
+            "Specification-Vendor": "BlueFire",
+            "Specification-Version": "1",
+            "Implementation-Title": "Archaic Guns",
+            "Implementation-Version": project.version,
+            "Implementation-Vendor" :"BlueFire",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+			"MixinConfigs": "archaicguns.mixins.json"
+		])
+    }
+}

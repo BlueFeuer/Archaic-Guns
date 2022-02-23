@@ -1,0 +1,258 @@
+{
+  "item.pipegun.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.pipegun.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.blunderbuss.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.blunderbuss.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.musket.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.musket.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.coachgun.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.coachgun.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.slagger.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.slagger.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.rotatingboltlauncher.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.rotatingboltlauncher.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeater.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeater.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.agrifle.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.agrifle.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstick.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstick.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeateralt.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeateralt.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstickalt.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstickalt.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.agpistol.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.agpistol.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.pipegunrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.pipegunrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.blunderbussrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.blunderbussrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.musketrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.musketrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.coachgunrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.coachgunrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.slaggerrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.slaggerrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.rotatingboltlauncherrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.rotatingboltlauncherrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeaterrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeaterrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.agriflerust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.agriflerust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstickrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstickrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeateraltrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeateraltrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstickaltrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstickaltrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.agpistolrust.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.agpistolrust.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeatermoss.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeatermoss.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeatermossevil.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeatermossevil.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.repeatermossf.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.repeatermossf.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.coachgunmolten.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.coachgunmolten.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.coachgunvoid.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.coachgunvoid.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstickaltmolten.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstickaltmolten.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.boomstickmolten.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.boomstickmolten.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  },
+  "item.agriflemolten.fire": {
+    "subtitle": "subtitle.archaicguns.fire",
+    "sounds": [{ "name": "minecraft:random/explode1", "pitch": 1.2 }, { "name": "minecraft:random/explode2", "pitch": 1.2 }, { "name": "minecraft:random/explode3", "pitch": 1.2 }, { "name": "minecraft:random/explode4", "pitch": 1.2 }]
+  },
+  "item.agriflemolten.reload": {
+    "subtitle": "subtitle.archaicguns.reload",
+    "sounds": [{ "name": "archaicguns:item/loading_end", "pitch": 1.2 }]
+  }
+}

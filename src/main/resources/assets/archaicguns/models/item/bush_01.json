@@ -1,0 +1,84 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"textures": {
+		"1": "biomesoplenty:blocks/bush_base",
+		"2": "biomesoplenty:blocks/bush_extension",
+		"3": "biomesoplenty:blocks/bush_sticks",
+		"particle": "biomesoplenty:blocks/bush_extension"
+	},
+	"elements": [
+		{
+			"name": "basebush",
+			"from": [0, -8, 0],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [8, -8, 0],
+			"to": [8, 8, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [0, -8, 8],
+			"to": [16, 8, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "bush",
+			"from": [0, -12, 0],
+			"to": [12, 4, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [13, 1, 0]},
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [0, 2, 16, 14], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "bush",
+			"from": [3, -8, 0],
+			"to": [15, 8, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [12, 5, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [0, 2, 16, 14], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "bush",
+			"from": [0, -7, 1],
+			"to": [16, 9, 13],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 6, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [0, 2, 16, 14], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "bush",
+			"from": [0, -11.5, 3],
+			"to": [16, 4.5, 15],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [13, 2, 3]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [0, 2, 16, 14], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

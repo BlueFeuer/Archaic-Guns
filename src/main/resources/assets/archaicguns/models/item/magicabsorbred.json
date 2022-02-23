@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "archaicguns:items/gun_absorbred_anim"
+	},
+	"elements": [
+		{
+			"from": [2.9, 6.425, 3.025],
+			"to": [13.1, 6.425, 13.225],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.225, 5.325]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6, -7]
+		},
+		"firstperson_righthand": {
+			"translation": [-3.5, 8.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"translation": [-3.5, 8.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 5, -4.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [1.5, 2.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 180, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-7, 10, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+  "general": {
+    "auto": FALSE,
+    "rate": 20,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 14,
+    "recoilKick": 1,
+    "recoilAdsReduction": 0.6,
+    "projectileAmount": 1,
+    "alwaysSpread": TRUE,
+    "spread": 4
+  },
+  "projectile": {
+    "item": "archaicguns:cartridge",
+    "visible": FALSE,
+    "damage": 12,
+    "size": 0.1,
+    "speed": 7,
+    "life": 10,
+    "gravity": TRUE
+  },
+  "sounds": {
+    "fire": "archaicguns:item.pipegun.fire",
+    "reload": "archaicguns:item.pipegun.reload",
+    "cock": "archaicguns:item.pipegun.reload",
+    "silencedFire": "archaicguns:item.pipegun.fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5.3,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "scale": 1,
+        "yOffset": 4.5,
+        "zOffset": 3
+      },
+      "barrel": {
+        "scale": 0.5,
+        "yOffset": 3.375,
+        "zOffset": -15
+      },
+      "stock": {
+        "scale": 1.2,
+        "yOffset": 2.8,
+        "zOffset": -3
+      },
+      "underBarrel": {
+        "scale": 1,
+        "yOffset": 0,
+        "zOffset": 0
+      }
+    }
+  }
+}
